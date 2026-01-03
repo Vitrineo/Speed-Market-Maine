@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Speed Market Maine – Épicerie produits importés | Paris 14</title>
+<meta name="description" content="Speed Market Maine, épicerie de quartier à Paris 14. Produits importés, snacks US, boissons. Click & collect rapide.">
+
+<style>
+:root{
+  --bg:#020617;
+  --card:#111827;
+  --text:#f9fafb;
+  --muted:#9ca3af;
+  --accent:#22c55e;
+}
+
+*{box-sizing:border-box}
+
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Arial;
+  background:linear-gradient(180deg,#020617,#0f172a);
+  color:var(--text);
+}
+
+a{color:inherit;text-decoration:none}
+
+.container{
+  max-width:900px;
+  margin:auto;
+  padding:20px;
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:10;
+  background:rgba(2,6,23,.9);
+  border-bottom:1px solid rgba(255,255,255,.1);
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+}
+
+.logo{
+  font-weight:900;
+  font-size:18px;
+}
+
+.btn{
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.2);
+  font-weight:700;
+  font-size:14px;
+}
+
+.btn.primary{
+  background:rgba(34,197,94,.2);
+  border-color:var(--accent);
+}
+
+.hero{
+  padding:40px 0;
+}
+
+.hero h1{
+  font-size:34px;
+  margin:0 0 10px;
+}
+
+.hero p{
+  color:var(--muted);
+  line-height:1.6;
+}
+
+.section{
+  margin-top:40px;
+}
+
+.card{
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.1);
+  border-radius:18px;
+  padding:20px;
+}
+
+/* images */
+.gallery{
+  max-width:1100px;
+  margin:40px auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:14px;
+  padding:0 15px;
+}
+
+.gallery img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  border-radius:14px;
+}
+
+/* map */
+.map iframe{
+  width:100%;
+  height:360px;
+  border:0;
+  border-radius:16px;
+  display:block;
+}
+
+footer{
+  margin:40px 0 20px;
+  text-align:center;
+  color:var(--muted);
+  font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">Speed Market Maine</div>
+      <div>
+        <a href="tel:+33100000000" class="btn">📞 Appeler</a>
+        <a href="#commande" class="btn primary">Commander</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero container">
+  <h1>Épicerie de quartier,<br>produits importés & US</h1>
+  <p>
+    Snacks américains, boissons, confiseries et essentiels du quotidien.<br>
+    Commande en ligne et retrait rapide au shop.
+  </p>
+  <p>📍 196 Avenue du Maine, 75014 Paris</p>
+</section>
+
+<section id="commande" class="section container">
+  <h2>Click & Collect</h2>
+  <div class="card">
+    <p>Envoie-nous ta commande par WhatsApp, on prépare, tu récupères.</p>
+
+    <a class="btn primary"
+       href="https://wa.me/33600000000?text=Bonjour%20Speed%20Market%20Maine%2C%0A%0AJe%20souhaite%20passer%20une%20commande%20en%20click%20%26%20collect%20%3A%0A%0A- Produits%20%3A%20%0A- Quantit%C3%A9s%20%3A%20%0A- Heure%20de%20retrait%20souhait%C3%A9e%20%3A%20%0A%0AMerci%20!"
+       target="_blank">
+       🛒 Commander en Click & Collect
+    </a>
+
+    <p style="font-size:13px;color:var(--muted);margin-top:10px">
+      Paiement au comptoir – rapide & simple
+    </p>
+  </div>
+</section>
+
+<!-- IMAGES -->
+<div class="gallery">
+  <img src="produits-1.JPG" alt="Produits Speed Market" loading="lazy">
+  <img src="produits-2.JPG" alt="Snacks et boissons importées" loading="lazy">
+  <img src="produits-3.JPG" alt="Sélection Speed Market Maine" loading="lazy">
+</div>
+
+<section class="section container">
+  <h2>Horaires</h2>
+  <div class="card" style="text-align:center">
+    <p style="font-size:18px;font-weight:700;margin-bottom:6px">
+      ⏰ Ouvert tous les jours
+    </p>
+    <p style="font-size:16px">
+      De <strong>12h</strong> à <strong>5h du matin</strong>
+    </p>
+    <p style="font-size:13px;color:var(--muted);margin-top:8px">
+      Sans interruption
+    </p>
+  </div>
+</section>
+
+<section class="section container">
+  <h2>Nous trouver</h2>
+  <div class="card map">
+    <iframe
+      src="https://www.google.com/maps?q=196%20Avenue%20du%20Maine%2C%2075014%20Paris&output=embed"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
+<footer>
+  © 2026 Speed Market Maine – Paris 14
+</footer>
+
+</body>
+</html>
